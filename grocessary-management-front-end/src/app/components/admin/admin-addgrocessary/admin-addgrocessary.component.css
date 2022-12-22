@@ -1,0 +1,20 @@
+div
+{
+    text-align: center;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 450px;
+    margin-right: 450px;
+    color: white;
+    background: rgba(255, 255, 255, 0.17);
+border-radius: 1px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+backdrop-filter: blur(7px);
+width: 300px;
+border: 1px solid rgba(255, 255, 255, 0.26);
+   
+}
+
+table{
+    text-align: justify;
+}

@@ -1,0 +1,23 @@
+tr,td,img
+{
+    color: white;
+    height: 100px;
+    width: 100px;
+    
+}
+table {
+    margin-top: 10px;
+    width: 100%;
+    /* color: white;
+    background: rgba(255, 255, 255, 0.17);
+border-radius: 1px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0);
+backdrop-filter: blur(7px);
+
+border: 1px solid rgba(255, 255, 255, 0.26); */
+  }
+  
+  th {
+    height: 70px;
+    
+  }

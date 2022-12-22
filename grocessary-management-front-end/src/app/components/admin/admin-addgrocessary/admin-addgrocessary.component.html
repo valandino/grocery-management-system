@@ -1,0 +1,44 @@
+<div class="main">
+<h1>ADD GROCERY</h1>
+
+<table >
+    <tr>
+        <td>Product Name</td>
+        <td>
+            <input type="text" placeholder="Product" [(ngModel)]="productname" />
+        </td>
+    </tr>
+    <tr>
+        <td>Image</td>
+        <td>
+            <input type="text" placeholder="image" [(ngModel)]="image"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Description</td>
+        <td>
+            <input type="text" placeholder="description" [(ngModel)]="description"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Mrp Price</td>
+        <td>
+            <input type="number" placeholder="Price" [(ngModel)]="mrpPrice"/>
+        </td>
+    </tr>
+    <tr>
+        <td>Quantity</td>
+        <td>
+            <input type="number" placeholder="quantity" [(ngModel)]="quantity"/>
+        </td>
+    </tr>
+    
+    
+    <tr>
+        <td colspan="2">
+            <button (click)="onAddProduct()">{{ isEdit ? 'Update' : 'Add Product'}}</button>
+        </td>
+    </tr>
+</table>
+
+</div>

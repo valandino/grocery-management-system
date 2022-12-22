@@ -1,0 +1,37 @@
+<h1>CONTACT US</h1>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- <p>  THANK YOU to grocery store workers
+    THANK YOU to delivery services
+    THANK YOU to truck drivers
+    THANK YOU to farmers
+    THANK YOU to garbage men
+    THANK YOU to everyone risking their life
+    for the good of other people.</p> -->
+    <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" [(ngModel)]="fullName" name="fullname" placeholder="Your full name..">
+    <label for="email">Email</label>
+    <input type="text" id="email" [(ngModel)]="email" name="email" placeholder="Enter your emailId..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" [(ngModel)]="subject" name="subject" placeholder="Write something.." style="height: 200px"></textarea>
+
+    <input type="submit" (click)="onSubmit()" value="Submit">
+  </form>
+</div>
+
+<footer class="social">
+    <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/?lang=en-in" class="fa fa-twitter"></a>
+    <a href="https://www.google.com/" class="fa fa-google"></a>
+    <a href="https://www.linkedin.com/home?originalSubdomain=in" class="fa fa-linkedin"></a>
+    <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+    <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+    <a href="https://in.pinterest.com/" class="fa fa-pinterest"></a>
+    <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
+</footer>
+
+

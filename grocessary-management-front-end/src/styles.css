@@ -1,0 +1,14 @@
+/* @import '~@angular/material/prebuilt-themes/deeppurple-amber.css'; */
+body{
+   
+    position: relative;
+    background-image : url("./assets/images/home.webp") ;  /* The image used */
+      height:100%; /* You must set a specified height */
+      width: auto;/* width: auto; */
+      background-position: center; /* Center the image */
+      background-repeat: no-repeat; /* Do not repeat the image */
+      background-size: cover;  /* Resize the background image to cover the entire container */
+      /* backdrop-filter: blur(7px); */
+      
+      
+    }

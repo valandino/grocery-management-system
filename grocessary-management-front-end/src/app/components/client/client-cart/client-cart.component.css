@@ -1,0 +1,16 @@
+table {
+    width: 100%;
+    color: white;
+  }
+  
+  th {
+    height: 70px;
+  }
+
+  div{
+    color: white;
+  }
+  .total
+  {
+    text-align: center;
+  }
